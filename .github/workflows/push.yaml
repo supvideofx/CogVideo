@@ -29,6 +29,11 @@ jobs:
         with:
           tool-cache: true
           docker-images: false
+          android: false
+          dotnet: false
+          haskell: false
+          large-packages: false
+          swap-storage: false
 
       - name: Checkout
         uses: actions/checkout@v4
