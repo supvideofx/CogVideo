@@ -31,4 +31,4 @@ build:
     - "cd /sharefs/cogview-new; wget https://models.nmb.ai/cogview2/cogview2-dsr.tar.gz -O - | tar xz"
 
 predict: "predict.py:Predictor"
-image: "r8.im/arturogro/cogvideo"
+image: "r8.im/arturogro/cogvideox"
