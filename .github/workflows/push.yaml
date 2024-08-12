@@ -29,12 +29,6 @@ jobs:
         with:
           tool-cache: true
           docker-images: false
-          # All of these default to true, but feel free to set to "false" if necessary for your workflow
-          android: false
-          dotnet: false
-          haskell: false
-          large-packages: false
-          swap-storage: false
 
       - name: Checkout
         uses: actions/checkout@v4
