@@ -33,8 +33,8 @@ jobs:
           android: false
           dotnet: false
           haskell: false
-          large-packages: true
-          swap-storage: true
+          large-packages: false
+          swap-storage: false
 
       - name: Checkout
         uses: actions/checkout@v4
