@@ -25,7 +25,7 @@ jobs:
       # This action cleans up disk space to make more room for your
       # model code, weights, etc.
       - name: Free disk space
-        uses: jlumbroso/free-disk-space@v1.3.1
+        uses: jlumbroso/free-disk-space@main 
         with:
           tool-cache: true
           docker-images: false
