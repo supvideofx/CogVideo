@@ -15,7 +15,7 @@ jobs:
       - name: Free disk pace
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
-          tool-cache: false
+          tool-cache: true
           docker-images: false
  
       - name: Checkout
