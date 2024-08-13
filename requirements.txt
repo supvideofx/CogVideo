@@ -2,7 +2,7 @@ diffusers>=0.30.0
 transformers>=4.43.4
 accelerate>=0.33.0
 sentencepiece==0.2.0
-SwissArmyTransformer>=0.2
+SwissArmyTransformer==0.4.11
 torch==2.0.0
 torchvision==0.15.1
 gradio==4.40.0
