@@ -17,11 +17,11 @@ from icetk import icetk as tokenizer
 import torch.distributed as dist
 tokenizer.add_special_tokens(['<start_of_image>', '<start_of_english>', '<start_of_chinese>'])
 
-from SwissArmyTransformer import get_args
-from SwissArmyTransformer.data_utils import BinaryDataset, make_loaders
-from SwissArmyTransformer.generation.sampling_strategies import BaseStrategy
-from SwissArmyTransformer.generation.utils import timed_name, save_multiple_images, generate_continually
-from SwissArmyTransformer.resources import auto_create
+from sat import get_args
+from sat.data_utils import BinaryDataset, make_loaders
+from sat.generation.sampling_strategies import BaseStrategy
+from sat.generation.utils import timed_name, save_multiple_images, generate_continually
+from sat.resources import auto_create
 
 from models.cogvideo_cache_model import CogVideoCacheModel
 from coglm_strategy import CoglmStrategy
