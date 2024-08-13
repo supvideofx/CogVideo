@@ -1,0 +1,13 @@
+name: Test Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Runner Availability
+    runs-on: aivideo-runner
+
+    steps:
+      - name: Print message
+        run: echo "Runner is working!"
