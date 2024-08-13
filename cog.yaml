@@ -21,6 +21,7 @@ build:
     - "torch==2.0.0"
     - "torchvision==0.15.1"
     - "tqdm==4.64.0"
+    - "protobuf==3.20.3"
 
   run:
     - "pip install torch==2.0.0 torchvision==0.15.1 pytorch-lightning torch-fidelity -f https://download.pytorch.org/whl/torch_stable.html"
