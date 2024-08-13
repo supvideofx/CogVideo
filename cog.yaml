@@ -17,7 +17,7 @@ build:
     - "gifmaker==1.5"
     - "icetk==0.0.4"
     - "opencv-python==4.10.0.84"
-    - "SwissArmyTransformer==0.4.11"
+    - "SwissArmyTransformer==0.2.1"
     - "torch==2.0.0"
     - "torchvision==0.15.1"
     - "tqdm==4.64.0"
