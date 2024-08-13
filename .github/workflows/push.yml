@@ -10,7 +10,7 @@ on:
 jobs:
   push_to_replicate:
     name: Push to Replicate
-    runs-on: ubuntu-latest
+    runs-on: videogen-runner
     steps:
       - name: Free disk pace
         uses: jlumbroso/free-disk-space@v1.3.1
