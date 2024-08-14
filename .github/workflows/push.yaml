@@ -50,7 +50,7 @@ jobs:
 
       - name: Login to Replicate
         run: |
-           echo ${{ env.CLI_TOKEN }} | sudo cog login --token-stdin
+           echo ${{ vars.CLI_TOKEN }} | sudo cog login --token-stdin
 
       # If you trigger the workflow manually, you can specify the model name.
       # If you leave it blank (or if the workflow is triggered by a push), the 
